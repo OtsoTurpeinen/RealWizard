@@ -1,0 +1,19 @@
+"SpellCompDef"
+{
+    "rw_fire"
+    {
+        //Particle System name (use generic if not done)
+       "rw_linear" "rw_generic"
+       "rw_follow" "rw_generic"
+       "rw_target" "rw_generic"
+       "rw_aoe" "rw_generic"
+       "rw_wave" "rw_generic"
+       "rw_trap" "rw_generic"
+       "rw_bomb" "rw_generic"
+       "rw_minion" "rw_generic"
+       
+       //Key values
+       "AOE" "0 125 200 300 500 800"
+       "SPEED" "200 300 350 500 1000 2000"
+    }
+}

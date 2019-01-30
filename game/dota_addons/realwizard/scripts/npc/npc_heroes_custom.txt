@@ -1,0 +1,29 @@
+// Dota Heroes File
+// NOTE: This is not for creating new heroes, this is for taking a currently existing hero as a template and overriding
+// the specified key-value combinations.  Use override_hero <hero_to_override> for this.
+"DOTAHeroes"
+{
+	"npc_dota_hero_real_wizard"
+	{
+		"override_hero"				"npc_dota_hero_rubick"			// Hero to override
+		"Ability1"		"wizard_spell_component_1"
+		"Ability2"		"wizard_spell_component_2"
+		"Ability3"		"wizard_spell_component_3"
+		"Ability4"		"wizard_spell_component_4"
+		"Ability5"		"wizard_spell_component_5"
+		"Ability6"		"wizard_spell_component_6"
+		"Ability7"		"wizard_spell_manager"
+		"Ability8"		""
+		"Ability9"		""
+		"Ability10"		""
+		"Ability11"		""
+		"Ability12"		""
+		"Ability13"		""
+		"Ability14"		""
+		"Ability15"		""
+		"Ability16"		""
+		"Ability17"		""
+		"Ability18"		""
+		"AbilityLayout"               "6"
+	}
+}

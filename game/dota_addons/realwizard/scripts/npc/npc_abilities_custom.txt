@@ -1,0 +1,2 @@
+
+#base "abilities/real_wizard_abs.txt"

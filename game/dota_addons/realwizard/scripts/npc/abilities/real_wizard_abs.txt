@@ -1,0 +1,299 @@
+"DOTAAbilities"
+{
+    "wizard_spell_component_1"
+    {
+        "BaseClass"             "ability_lua"
+        "ScriptFile"                    "lua_abilities/spell_components/comp_1.lua"
+        "AbilityTextureName"            "wizard_spell_component_1"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_ALL"
+        "AbilityDuration"               "0.0"
+        "AbilityCastPoint"              "0.0"
+        "AbilityCooldown"               "0.01"
+        "AbilityManaCost"               "55 45 35 25 15"
+        "AbilityCastRange"              "0"
+        "MaxLevel"              "5"
+        "LevelsBetweenUpgrades" "1"
+        "AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"id"					"1"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"red"					"50"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"green"					"100"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"blue"					"255"
+			}
+        }
+
+    }
+    "wizard_spell_component_2"
+    {
+        "BaseClass"             "ability_lua"
+        "ScriptFile"                    "lua_abilities/spell_components/comp_2.lua"
+        "AbilityTextureName"            "wizard_spell_component_2"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_ALL"
+        "AbilityDuration"               "0.0"
+        "AbilityCastPoint"              "0.0"
+        "AbilityCooldown"               "0.01"
+        "AbilityManaCost"               "55 45 35 25 15"
+        "AbilityCastRange"              "0"
+        "MaxLevel"              "5"
+        "LevelsBetweenUpgrades" "1"
+        "AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"id"					"2"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"red"					"200"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"green"					"50"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"blue"					"200"
+			}
+        }
+    }
+    "wizard_spell_component_3"
+    {
+        "BaseClass"             "ability_lua"
+        "ScriptFile"                    "lua_abilities/spell_components/comp_3.lua"
+        "AbilityTextureName"            "wizard_spell_component_3"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_ALL"
+        "AbilityDuration"               "0.0"
+        "AbilityCastPoint"              "0.0"
+        "AbilityCooldown"               "0.01"
+        "AbilityManaCost"               "55 45 35 25 15"
+        "AbilityCastRange"              "0"
+        "MaxLevel"              "5"
+        "LevelsBetweenUpgrades" "1"
+        "AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"id"					"3"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"red"					"255"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"green"					"150"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"blue"					"50"
+			}
+        }
+
+    }
+    "wizard_spell_component_4"
+    {
+        "BaseClass"             "ability_lua"
+        "ScriptFile"                    "lua_abilities/spell_components/comp_4.lua"
+        "AbilityTextureName"            "wizard_spell_component_4"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_ALL"
+        "AbilityDuration"               "0.0"
+        "AbilityCastPoint"              "0.0"
+        "AbilityCooldown"               "0.01"
+        "AbilityManaCost"               "55 45 35 25 15"
+        "AbilityCastRange"              "0"
+        "MaxLevel"              "5"
+        "LevelsBetweenUpgrades" "1"
+        "AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"id"					"4"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"red"					"150"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"green"					"255"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"blue"					"50"
+			}
+        }
+
+    }
+    "wizard_spell_component_5"
+    {
+        "BaseClass"             "ability_lua"
+        "ScriptFile"                    "lua_abilities/spell_components/comp_5.lua"
+        "AbilityTextureName"            "wizard_spell_component_5"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_ALL"
+        "AbilityDuration"               "0.0"
+        "AbilityCastPoint"              "0.0"
+        "AbilityCooldown"               "0.01"
+        "AbilityManaCost"               "55 45 35 25 15"
+        "AbilityCastRange"              "0"
+        "MaxLevel"              "5"
+        "LevelsBetweenUpgrades" "1"
+        "AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"id"					"5"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"red"					"50"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"green"					"255"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"blue"					"200"
+			}
+        }
+
+    }
+    "wizard_spell_component_6"
+    {
+        "BaseClass"             "ability_lua"
+        "ScriptFile"                    "lua_abilities/spell_components/comp_6.lua"
+        "AbilityTextureName"            "wizard_spell_component_6"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_BOTH"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_ALL"
+        "AbilityDuration"               "0.0"
+        "AbilityCastPoint"              "0.0"
+        "AbilityCooldown"               "0.01"
+        "AbilityManaCost"               "55 45 35 25 15"
+        "AbilityCastRange"              "0"
+        "MaxLevel"              "5"
+        "LevelsBetweenUpgrades" "1"
+        "AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"id"					"6"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"red"					"255"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"green"					"50"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"blue"					"50"
+			}
+        }
+
+    }
+    "wizard_spell_manager"
+    {
+        "BaseClass"             "ability_lua"
+        "ScriptFile"                    "lua_abilities/spell_components/manager.lua"
+        "AbilityTextureName"            "wizard_spell_manager"
+        "MaxLevel"              "24"
+        "LevelsBetweenUpgrades" "1"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_PASSIVE"        "precache"
+        {
+            "particle"                                                     "particles/rw_signs/sign_1.vpcf"
+            "particle"                                                     "particles/rw_signs/sign_2.vpcf"
+            "particle"                                                     "particles/rw_signs/sign_3.vpcf"
+            "particle"                                                     "particles/rw_signs/sign_4.vpcf"
+            "particle"                                                     "particles/rw_signs/sign_5.vpcf"
+            "particle"                                                     "particles/rw_signs/sign_6.vpcf"
+            "particle"                                                     "particles/rw_aoe/rw_generic.vpcf"
+            "particle"                                                     "particles/rw_linear/rw_generic.vpcf"
+            "particle"                                                     "particles/rw_follow/rw_generic.vpcf"
+            "particle"                                                     "particles/rw_target/rw_generic.vpcf"
+            "particle"                                                     "particles/rw_wave/rw_generic.vpcf"
+            "particle"                                                     "particles/rw_trap/rw_generic.vpcf"
+            "soundfile" "soundevents/realwizard.vsndevts"
+            "particle" "particles/econ/events/ti8/msg_deny_ti8.vpcf"
+            "particle" "particles/msg_fx/msg_damage.vpcf"
+            
+	"particle" "particles/rw_modifiers/rw_fire"
+	"particle" "particles/rw_modifiers/rw_freeze"
+	"particle" "particles/rw_modifiers/rw_slow"
+	"particle" "particles/rw_modifiers/rw_haste"
+	"particle" "particles/rw_modifiers/rw_health_rgn"
+	"particle" "particles/rw_modifiers/rw_agi"
+	//"particle" "particles/rw_modifiers/rw_clarity"
+	"particle" "particles/rw_modifiers/rw_evasion"
+	//"particle" "particles/rw_modifiers/rw_heal"
+	"particle" "particles/rw_modifiers/rw_int"
+	//"particle" "particles/rw_modifiers/rw_invis"
+	//"particle" "particles/rw_modifiers/rw_magic_immune"
+	"particle" "particles/rw_modifiers/rw_mana_rgn"
+	"particle" "particles/rw_modifiers/rw_miss"
+	//"particle" "particles/rw_modifiers/rw_singl_magic"
+	//"particle" "particles/rw_modifiers/rw_singl_phys"
+	//"particle" "particles/rw_modifiers/rw_singl_pure"
+	"particle" "particles/rw_modifiers/rw_str"
+	"particle" "particles/rw_modifiers/rw_stun"
+	"particle" "particles/rw_modifiers/rw_root"
+	"particle" "particles/rw_modifiers/rw_damage_in"
+	"particle" "particles/rw_modifiers/rw_damage_out"
+  //"particle" "particles/rw_modifiers/rw_tele_self"
+  //"particle" "particles/rw_modifiers/rw_tele_other"
+  "particle" "particles/rw_modifiers/rw_castout"
+  //"particle" "particles/rw_modifiers/rw_hex"
+  "particle" "particles/rw_modifiers/rw_armor"
+  "particle" "particles/rw_modifiers/rw_pierce"
+  "particle" "particles/rw_modifiers/rw_magic_resist"
+  "particle" "particles/rw_modifiers/rw_magic_weak"
+        }
+    }
+}
